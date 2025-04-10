@@ -127,4 +127,4 @@ src/
 
 ## 📃 Лицензия
 
-[MIT](LICENSE)
+[MIT]
