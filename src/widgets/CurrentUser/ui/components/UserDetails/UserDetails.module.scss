@@ -1,0 +1,11 @@
+.user_details_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--m);
+
+
+  @media (max-width: 960px) {
+    flex-direction: column;
+  }
+}

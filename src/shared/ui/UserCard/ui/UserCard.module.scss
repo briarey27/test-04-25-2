@@ -1,0 +1,41 @@
+.user_card_wrapper {
+    background-color: var(--bg-secondary-color);
+    padding: var(--m);
+    border-radius: var(--s);
+    &:hover {
+        opacity: 90%;
+    }
+}
+
+.user_name {
+    font-weight: 600;
+    font-size: var(--font-size-l);
+    border-radius: var(--s);
+}
+
+.user_icon_wrapper {
+    width: var(--xl);
+    height: var(--xl);
+    border-radius: 100px;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_icon {
+    font-size: var(--l);
+}
+
+.row {
+    display: flex;
+    gap: var(--s);
+}
+
+.col {
+    padding-top:  var(--s);
+    display: flex;
+    flex-direction: column;
+    gap: var(--s);
+}
